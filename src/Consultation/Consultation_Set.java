@@ -35,7 +35,7 @@ public class Consultation_Set {
         return duplicates;                               //no esli budet imja w massiwe powtorjatsa naprimer 3 rasa, ne 2
                                                          // to on wernet eto ima dwa rasa, a nam nuschno schtobi prosto
                                                          // skasal odin ras kto duplicat. poetomu w stroke 28
-                                                         // !duplicates.contains(s)
+                                                         // !duplicates.contains(s)(schtobi w List sapisiwalsa duplikat 1ras
     }
 
 

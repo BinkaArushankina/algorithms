@@ -69,6 +69,20 @@ class Consultation_SetTest {
 
         assertEquals(expected,consultationSet.duplicates(actual));
     }
+    @Test
+    public void testing_duplicates_oneElement(){
+        List<String> actual = Arrays.asList("John");
+        List<String> expected = Arrays.asList();
+
+        assertEquals(expected,consultationSet.duplicates(actual));
+    }
+    @Test
+    public void testing_duplicates_emptyList_noDuplicates(){
+        List<String> actual = Arrays.asList("Jack","John","Jill");
+        List<String> expected = Arrays.asList();
+
+        assertEquals(expected,consultationSet.duplicates(actual));
+    }
 
 
 
